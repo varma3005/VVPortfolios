@@ -1,0 +1,136 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin: 80px 170px;
+  }
+  
+  .services-title {
+    position: relative;
+    text-align: center;
+  }
+  
+  .services-title h1 {
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  .services-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 200px;
+  }
+  
+  .services-format {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: transform 0.4s, border-color 0.4s;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, #303030, #4d4b4b);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Align all content center */
+    
+  }
+  
+  .services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 80px;
+  }
+  
+  .services-format:hover {
+    border-color: #ff00ff;
+    background: linear-gradient(45deg, #845e76, #582300);
+    transform: scale(1.05);
+  }
+  
+  .services-format h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  .services-format h2 {
+    font-size: 32px;
+    font-weight: 800;
+    background: linear-gradient(270deg, #df8908 50%, #b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .services-format p {
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px 10px;
+    border-radius: 5px;
+    
+    margin-top: auto;
+  }
+  
+  .services-readmore {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .services-readmore img {
+    width: 20px;
+  }
+  .services-format:hover{
+    background: linear-gradient(270deg, #DA7C25 10%, #B923E1 100%);
+
+  }
+  
+  @media (max-width: 768px) {
+    .services {
+      align-items: start;
+      gap: 70px;
+      margin: 20px 70px;
+    }
+  
+    .services-title h1 {
+      padding: 0;
+      font-size: 40px;
+    }
+  
+    .services-title img {
+      width: 100px;
+      margin-right: -20px;
+    }
+  
+    .services-format {
+      gap: 20px;
+      padding: 20px;
+    }
+  
+    .services-format h2 {
+      font-size: 24px;
+    }
+  
+    .services-format p {
+      font-size: 16px;
+      line-height: 24px;
+      max-width: 300px;
+    }
+  
+    .services-container {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+  }
+  
