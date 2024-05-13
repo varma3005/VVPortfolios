@@ -114,6 +114,7 @@
         align-items: start;
         gap:50px;
         margin: 50px 70px;
+        width:700px;
     }
     .contact-title h1{
         padding: 0;

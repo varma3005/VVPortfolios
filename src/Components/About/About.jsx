@@ -29,6 +29,7 @@ I'm eager to bring my skills and passion for technology to your team. Let's conn
 </p>
                      
                 </div>
+<div className='container'>
 <div class="card">
   <h2>Programming Languages</h2>
   <ul class="skills">
@@ -46,7 +47,7 @@ I'm eager to bring my skills and passion for technology to your team. Let's conn
     <li>Numpy & Pandas</li>
   </ul>
 </div>
-<div className='container'>
+
 <div class="card">
   <h2>Libraries and Frameworks</h2>
   <ul class="skills">
